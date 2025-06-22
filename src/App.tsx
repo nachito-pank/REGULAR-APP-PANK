@@ -50,7 +50,7 @@ const AppContent: React.FC = () => {
                 </>
               ) : (
                 <>
-                  <Route path="/employee-dashboard" element={<div className="p-4 sm:p-6">Tableau de bord Employé - En développement</div>} />
+                  <Route path="/employee-dashboard" element={<div className="p-4 sm:p-6">Tableau de bord Employé - En développement ⌛</div>} />
                   <Route path="/punch-clock" element={<PunchClock />} />
                   <Route path="/daily-report" element={<DailyReport />} />
                   <Route path="/my-reports" element={<div className="p-4 sm:p-6">Mes Rapports - En développement</div>} />
